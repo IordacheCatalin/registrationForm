@@ -30,9 +30,8 @@ if (!password.value.match(regexPassword)) {
    message.innerText += "\nPlease enter a valid password";
 }
 
-if (!message.innerTest)
+if (!message.innerText)
 {const success = document.querySelector("#success");
 success.innerText = "Congratulations, you have successfully register";}
-
 
 };
